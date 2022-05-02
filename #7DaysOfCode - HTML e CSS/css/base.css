@@ -1,0 +1,46 @@
+:root {
+    --branco: #FFFFFF;
+    --azul: #667085;
+    --vermelho: #8E2424;
+    --azul-escuro: #101828;
+    --azul-claro: #D0D5DD;
+    --azul-medio: #98A2B3;
+}
+
+.titulo {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--azul-escuro);
+    text-align: center;
+}
+
+.titulo-pequeno {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--vermelho);
+    text-align: center;
+}
+
+.titulo-grande {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--azul-escuro);
+    margin-bottom: 36px;
+    margin-top: 24px; 
+    text-align: center;
+}
+
+.paragrafo {
+    width: 791px;
+    height: 60px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--azul);
+}

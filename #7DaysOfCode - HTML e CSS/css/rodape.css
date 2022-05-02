@@ -1,0 +1,45 @@
+.cartao-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 100%;
+    background: rgba(196, 25, 25, 0.03);
+    margin: 0 auto;
+}
+
+.rodape-input {
+    width: 360px;
+    height: 48px;
+    border-color: var(--azul-claro);
+    border-radius: 8px;
+    margin: 0px 16px;
+    color: var(--azul);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rodape-botao {
+    width: 116px;
+    height: 48px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+}
+
+.copyright {
+    margin-top: 32px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--azul-medio);
+}

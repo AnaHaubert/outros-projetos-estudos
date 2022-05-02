@@ -1,0 +1,43 @@
+.cartao-depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px;
+    width: 1216px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.titulo-depoimentos {
+    margin-bottom: 16px;
+}
+
+.avatar{
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/Avatar.png);
+    border-radius: 50%;
+    margin: 16px 0px;
+}
+
+.depoimento-nome {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--azul-escuro);
+}
+
+.depoimento-cargo {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--azul);
+}
